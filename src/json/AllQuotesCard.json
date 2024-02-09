@@ -1,0 +1,38 @@
+[
+  {
+    "author": "Première maquette",
+    "quote": "https://first-maquette.vercel.app",
+    "color": "maquetteHtml",
+    "categorie": "html"
+  },
+  {
+    "author": "Gestion de stock",
+    "quote": "https://gestionnaire-de-stockage.vercel.app",
+    "color": "gestion_stock",
+    "categorie": "js"
+  },
+  {
+    "author": "Pokedex",
+    "quote": "https://my-pokedex-livid.vercel.app",
+    "color": "Project_pokemon",
+    "categorie": "js"
+  },
+  {
+    "author": "Manga (En construction)",
+    "quote": "expo-manga",
+    "color": "Security",
+    "categorie": "react"
+  },
+  {
+    "author": "Cocktails",
+    "quote": "https://search-cocktails.vercel.app",
+    "color": "search_cocktails",
+    "categorie": "react"
+  },
+  {
+    "author": "Expo jeux vidéos (En construction)",
+    "quote": "expositions-jeux-videos",
+    "color": "Support",
+    "categorie": "react"
+  }
+]

@@ -1,0 +1,76 @@
+.card_quotes {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Permet à flex-items de passer à la ligne si nécessaire */
+  justify-content: flex-start;
+}
+
+.quotes_items {
+  position: relative;
+  width: 20%; /* Pour afficher 5 éléments par ligne (100% / 5) */
+  height: 20vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  box-sizing: border-box; /* Pour inclure le padding et la bordure dans la largeur spécifiée */
+  margin-left: 4%;
+  padding: 2%;
+  border-radius: 5%;
+}
+
+.btn_delete {
+  margin-bottom: 0.5vw;
+  margin-left: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1vw;
+}
+.btn_delete:hover {
+  color: red;
+}
+
+.quote_details {
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.input_area {
+  margin-right: 60%;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.form-label {
+  margin-right: 2%;
+  font-size: 1.5vw;
+}
+.form-select {
+  margin-right: 2%;
+  font-size: 0.9vw;
+  border-radius: 5%;
+}
+
+.cta {
+  padding: 1%;
+  font-size: 0.8vw;
+  background-color: rgb(223 223 223);
+  border: none;
+  border-radius: 5%;
+}
+.cta:hover {
+  background-color: rgb(153, 153, 153);
+}
+
+.txt_author {
+  position: absolute;
+  top: 80%;
+}
+
+.txt_emoji {
+  margin-top: 5%;
+  font-size: 1.5vw;
+}
